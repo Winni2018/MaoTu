@@ -1,0 +1,166 @@
+* {
+	margin: 0 auto;
+	padding: 0px;
+}
+
+.container {
+	padding: 0px;
+}
+
+
+/*弹性盒子*/
+
+.flex-container {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	list-style-type: none;
+}
+
+.flex-item {
+	width: 100%;
+	margin: 10px;
+}
+
+
+/*全屏按钮*/
+
+.full-button {
+	position: fixed;
+	z-index: 1000;
+	padding: 0;
+	top: 5px;
+	left: 60px;
+	border: none;
+	color: transparent;
+	background: transparent;
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+}
+
+.full-button::before {
+	position: absolute;
+	top: 0.5em;
+	left: 0.5em;
+}
+
+.full-button:hover {
+	opacity: 0.6;
+}
+
+
+/*灯光按钮*/
+
+.light-button {
+	position: fixed;
+	z-index: 1000;
+	padding: 0;
+	border: none;
+	top: 5px;
+	left: 110px;
+	color: transparent;
+	background: transparent;
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+}
+
+.light-button img {
+	width: 100%;
+}
+
+.light-button::before {
+	position: absolute;
+	top: 0.5em;
+	left: 0.5em;
+}
+
+.light-button:hover {
+	opacity: 0.6;
+}
+
+
+/*菜单按钮*/
+
+.menu-button {
+	position: fixed;
+	z-index: 1000;
+	padding: 0;
+	top: 5px;
+	left: 10px;
+	border: none;
+	color: transparent;
+	background: transparent;
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+}
+
+.menu-button::before {
+	position: absolute;
+	top: 0.5em;
+	left: 0.5em;
+}
+
+.menu-button:hover {
+	opacity: 0.6;
+}
+
+@media only screen and (max-width: 768px) {
+	.full-button {
+		visibility: hidden;
+	}
+	.light-button {
+		visibility: hidden;
+	}
+	/*.paging-hidden{
+		visibility: hidden;
+	}*/
+	.paging-hidden {
+		display: none;
+	}
+	.icon{
+		display: none;
+	}
+}
+
+
+/*   */
+
+.daytime {
+	background: #cccccc;
+}
+
+.night {
+	background: #333333;
+}
+
+.night-color {
+	color: #333333;
+}
+
+.icon-color {
+	color: #cccccc;
+	font-size: 25px;
+	display: block;
+}
+
+.icon-color-light {
+	color: #333333;
+	font-size: 30px;
+	display: block;
+}
+
+.paging-hidden{
+	float: left;
+}
+.icon{
+/*	border: 1px solid red;*/
+	margin-bottom: 50px;
+	width: 100%;
+}
+.collect,.like{
+	/*border: 1px solid yellow;*/
+	width: 6%;
+	float: left;
+	padding: 0px 10px;
+}

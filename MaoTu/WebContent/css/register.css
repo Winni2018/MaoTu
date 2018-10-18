@@ -1,0 +1,82 @@
+*{
+	margin: 0 auto;	
+}
+.container{
+	/*border: 1px solid red;*/
+}
+.log{
+	position: fixed;
+	top: 20px;
+	left: 40px;
+	z-index: 99;
+}
+.row{
+	margin: 0;
+}
+.right{
+	/*border: 1px solid red;*/
+	margin-top: 100px;
+	margin-bottom: 30px;
+}
+.left{
+	/*border: 1px solid red;*/
+	padding-left: 0;
+	padding-right: 0;
+	position: fixed;
+	width: 38%;
+	
+}
+.left img{
+	
+	/*position: absolute;*/
+		/*height: 700px;*/
+		width: 100%;
+
+}
+form{
+	margin-bottom: 100px;
+}
+.form-title{
+	color: black;
+	font-size: 32px;
+	color: #5B738F;
+}
+.form-register{
+	margin-top: 60px;
+}
+.form-control{
+	height: 50px;
+	/*width: 480px;*/
+	margin-top: 20px;
+}
+.beizhu{
+	height: 180px;
+}
+.zhuce{
+	background: #5B738F;
+	height: 40px;
+	color: white;
+	margin-top: 30px;
+	transition: all 0.4s;
+	font-size: 18px;
+	/*字间距*/
+	letter-spacing: 0.05em;
+}
+.zhuce:hover{
+	background: white;
+	border: 1px solid #5B738F;
+	color: #5B738F;
+}
+.tips{
+	color: red;
+}
+@media only screen and (max-width:480px ) {
+	.left{
+		display: none;
+	}
+}
+@media only screen and (max-width:768px ) {
+	.left{
+		display: none;
+	}
+}

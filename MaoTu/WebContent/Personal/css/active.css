@@ -1,0 +1,45 @@
+.hudong{
+	background: rgba(255,255,255,0.9);
+	padding-top: 10px;
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+.rev{
+	border: 1px solid gainsboro;
+	margin-top: 10px;
+}
+.rev-img{
+	/*border: 1px solid red;*/
+	margin-top: 10px;
+	
+}
+.rev-img img{
+	width: 50%;
+	
+}
+.rev-img p{
+	font-size:14px;
+	padding-left:5%;
+}
+.rev-intro{
+	margin-top: 10px;
+	/*background: #ffc408;*/
+	/*border: 1px solid red;*/
+		/*height: 100px;*/
+}
+.rev-intro p{
+	font-size:14px;
+}
+.rev-intro1{
+	/*border: 1px solid red;*/
+	margin-top: 90px;
+}
+.rev-intro1 img{
+	width: 20px;
+	height: 20px;
+	margin-left: 10px;
+}
+.rev-intro1 span{
+	margin-left: 10px;
+	font-size:14px;
+}

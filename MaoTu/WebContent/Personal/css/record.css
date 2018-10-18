@@ -1,0 +1,79 @@
+.chongzhi{
+	background: rgba(255,255,255,0.9);
+	margin-top: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#myTab1{
+	list-style: none;
+	/*padding-top: 20px;*/
+}
+.style2{
+	color: red;
+}
+#myTab1 li{
+	background: rgba(255,255,255,0.9);
+	list-style: none;
+	text-decoration: none;
+	/*width: 120px;*/
+	/*height: 50px;*/
+	/*background: none;*/
+
+}
+
+#myTab,#myTab1{
+	font-size: 16px;
+}
+#myTab1 li a{
+	text-align: center;
+	font-size: 16px;
+	text-decoration: none;
+	padding: 10px;
+}
+span,p{
+	font-size: 16px;
+}
+.flower1{
+	/*padding-top: 20px;*/
+	margin-top: 20px;
+	padding-left: 0;
+}
+#myTab1 li{
+	background: rgba(255,255,255,0.9);
+	border: 2px solid gainsboro;
+	
+}
+#fifty,#hundred,#defined{
+	font-size: 20px;
+}
+.style{
+	border: 1px solid red;
+	border-radius: 4px;
+	padding:5px 10px;
+}
+.pay1{
+	padding-left: 0;
+}
+.pay-way{
+	/*padding-left: 24%;*/
+	/*margin-left: -10%;*/
+}
+
+.pay-flower{
+	margin-top: 20px;
+}
+#home{
+	margin-top: 20px;
+}
+.month-pay{
+	padding: 10px;
+}
+.month-pay3,.month-pay2{
+	margin-top: 20px;
+}
+.flow3{
+	margin-top: 30px;
+}
+.btn{
+	width: 100px;
+}

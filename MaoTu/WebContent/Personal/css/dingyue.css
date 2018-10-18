@@ -1,0 +1,95 @@
+.con3{
+	background: rgba(255,255,255,0.9);
+	margin-top: 30px;
+	border: 0;
+	box-shadow: 2px 3px 5px gainsboro;
+		border: 1px solid gainsboro;
+}
+.con3-main,.con3-main1{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.con3-img{
+	/*border: 1px solid red;*/
+	padding-left: 0;
+	padding-right: 0;
+}
+.con3-img img{
+	width: 100%;
+	height: 150px;
+}
+.con3-intro{
+	padding-left: 10px;
+	padding-right: 0;
+}
+.con3-intro h4{
+	font-size: 16px;
+}
+.con3-intro p{
+	font-size: 12px;
+}
+.select-active{
+	color: #DF4F3F;
+	cursor: pointer;
+	border-bottom: 2px solid #DF4F3F;
+}
+
+.con2-main{
+	padding-left: 5px;
+}
+
+.btn-read{
+	padding-left: 0;
+}
+.btn-read1 span,.btn-read2 span{
+	font-size: 12px;
+}
+.btn-read1{
+	
+	border: 0;
+	background: indianred;
+	color:white;
+	margin-top: 10px;
+	
+}
+.btn-read2{
+	border: 1px solid gainsboro;
+	background: #F9F9F9;
+	color: black;
+	/*margin-left: 2%;*/
+}
+.btn-read1,.btn-read2{
+	margin-top: 10px;
+
+}
+.btn-read1:hover{
+	color: black;
+}
+.btn-read2:hover{
+	color:gray;
+}
+#num img{
+	width: 18px;
+	height: 18px;
+	/*margin-right: 10%;*/
+}
+/*p{
+	padding-left: 5%;
+}*/
+.p1 span{
+	font-size: 16px;
+}
+#num{
+	font-size: 14px;
+	margin-left: 20%;
+	padding-left: 10px;
+}
+/*#num span*/
+/*.con3-main img{
+	float: left;
+}
+.intro{
+	width: 30%;
+	float: left;
+		border: 1px solid red;
+}*/

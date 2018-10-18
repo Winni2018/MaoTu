@@ -1,0 +1,90 @@
+
+.con1{
+	border-bottom: 2px solid gainsboro;
+}
+
+.proupload{
+	background: white;
+	box-shadow: 2px 1px 1px gainsboro;
+}
+.proup{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	/*border: 1px solid red;*/
+}
+.change-box1{
+	background:0;
+	height: 30px;
+	border: 1px solid gainsboro;
+}
+.change-lable{
+	padding-left: 0;
+}
+.change-intro{
+	border: 1px solid gainsboro;
+	height: 90px;
+}
+.change-fenmian{
+	padding-left: 0;
+	padding-right: 0;
+
+}
+.change-fenmian1{
+	margin-top:40px;
+	height: 30px;
+	background: gainsboro;
+	display: none;
+}
+.mypro{
+	background: ghostwhite;
+	height: 30px;
+	padding-left: 0;
+	padding-right: 0;
+}
+.mypro1{
+	height: 180px;
+	border: 1px solid gainsboro;
+}
+
+.mypro-intro span{
+	margin-left:30%;
+}
+.mypro1-intro{
+	padding-left: 0;
+	padding-right: 0;
+	height:180px;
+	border-right: 1px solid gainsboro;
+}
+
+.blueButton1 img {
+	margin-right: 5%;
+}
+
+
+
+
+/*自定义上传,位置大小都和a完全一样,而且完全透明*/
+
+.myFileUpload {
+	position: absolute;
+	display: block;
+	width: 100px;
+	height: 40px;
+	opacity: 0;
+}
+
+
+/*显示上传文件夹名的Div*/
+
+.show {
+	position: absolute;
+	top: 40px;
+	width: 100%;
+	height: 30px;
+	font: normal normal normal 14px/30px 'Microsoft YaHei';
+}
+.works button{
+	height: 30px;
+	font-size: 14px;
+	
+}

@@ -1,0 +1,220 @@
+.con{
+	width: 100%;
+	height: 50px;
+	background-color: #F9F9F9;
+}
+
+.con h3{
+	color: black;
+	font-size: 18px;
+	margin-top: 0px;
+	margin-left: 0;
+}
+.con1{
+	border-bottom: 2px solid gainsboro;
+}
+.conper,.conper1{
+	margin-top:10px;
+	/*height: 40px;*/
+
+}
+.conper span{
+	color: black;
+	line-height: 30px;
+	font-size: 16px;
+}
+.conper1 span{
+	color: black;
+	line-height: 30px;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.proupload{
+	background: white;
+	box-shadow: 2px 1px 1px gainsboro;
+}
+.proup{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	/*border: 1px solid red;*/
+}
+.change-box1{
+	background:0;
+	height: 30px;
+	border: 1px solid gainsboro;
+}
+.change-lable{
+	padding-left: 0;
+}
+.change-intro{
+	border: 1px solid gainsboro;
+	height: 90px;
+}
+.change-fenmian{
+	padding-left: 0;
+	padding-right: 0;
+
+}
+.change-fenmian1{
+	margin-top:40px;
+	height: 30px;
+	background: gainsboro;
+	display: none;
+}
+.mypro{
+	background: ghostwhite;
+	height: 30px;
+	padding-left: 0;
+	padding-right: 0;
+}
+.mypro1{
+	height: 180px;
+	border: 1px solid gainsboro;
+}
+
+.mypro-intro span{
+	margin-left:30%;
+}
+.mypro1-intro{
+	padding-left: 0;
+	padding-right: 0;
+	height:180px;
+	border-right: 1px solid gainsboro;
+}
+
+.shenhe-span1{
+	width: 70%;
+	height: 50px;
+	/*border: 1px solid red;*/
+	margin-left: 30%;
+	margin-top: 40px;
+}
+.proup{
+	margin-top: 10px;
+}
+.shenhe{
+	display: none;
+	margin-top: 10px;
+}
+.title-p{
+	font-size: 15px;
+	font-weight:500;
+}
+.table-btn{
+	width: 90%;
+	border: 1px solid gainsboro;
+	margin-left: 0;
+}
+
+.btn-intro th{
+	text-align: center;
+	font-size: 16px;
+	font-weight: 500;
+}
+.intro-img{
+	/*border: 1px solid red;*/
+}
+.intro-img img{
+	width: 80%;
+	margin-top: 5px;
+	/*border: 1px solid red;*/
+}
+.intro-shen p{
+	font-size: 14px;
+	font-weight: 500;
+}
+.intro-shen span{
+	font-size: 12px;
+}
+.intro-btn button{
+	border: 0;
+}
+.add{
+	background: #337AB7;
+	height: 25px;
+	color: white;
+}
+.manment{
+	background: gainsboro;
+	height: 25px;
+	color: black;
+	margin-top: 10px;
+}
+.manment:hover{
+	color: white;
+}
+.shenhe1{
+	display: none;
+}
+.cartnoon{
+	margin-top: 20px;
+	background: white;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.shenhe{
+	margin-left: 5%;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+@media only screen and (min-width:996px ) {
+	.shenhe{
+	display:block;
+}
+}
+@media only screen and (max-width: 768px ) {
+	.shenhe{
+	display:block;
+}
+}
+@media only screen and (max-width: 480px ) {
+	.shenhe1{
+	display:block;
+}
+.shenhe{
+	display:none;
+}
+}
+
+.blueButton1 {
+	position: absolute;
+	display: block;
+	width: 100px;
+	height: 40px;
+	background:rgba(220,220,220,0.9);
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	font: normal normal normal 14px/40px 'Microsoft YaHei';
+	/*padding-left: 10px;*/
+	border-radius: 4px;
+}
+
+.blueButton1 img {
+	margin-right: 5%;
+}
+
+
+
+
+/*自定义上传,位置大小都和a完全一样,而且完全透明*/
+
+.myFileUpload {
+	position: absolute;
+	display: block;
+	width: 100px;
+	height: 40px;
+	opacity: 0;
+}
+
+
+/*显示上传文件夹名的Div*/
+
+.show {
+	position: absolute;
+	top: 40px;
+	width: 100%;
+	height: 30px;
+	font: normal normal normal 14px/30px 'Microsoft YaHei';
+}

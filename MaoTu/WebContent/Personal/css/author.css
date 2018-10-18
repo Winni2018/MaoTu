@@ -1,0 +1,51 @@
+.con{
+	width: 100%;
+	height: 50px;
+	background-color: #F9F9F9;
+}
+
+.con h3{
+	color: black;
+	font-size: 18px;
+	margin-top: 0px;
+	margin-left: 0;
+}
+.con1{
+	border-bottom: 2px solid gainsboro;
+}
+.authors{
+	margin-top: 20px;
+	
+}
+.author-box{
+	/*width: 70%;*/
+	/*padding-left: 0;*/
+	height: 30px;
+	border: 1px solid gainsboro;
+}
+.author-box1{
+	padding-left: 0;
+}
+.author-span,.author-span1{
+	padding-left:10px;
+	/*margin-top: 10px;*/
+	/*border: 1px solid red;*/
+}
+
+.author-span{
+	font-size: 14px;
+}
+
+.author-sex{
+	padding-left: 0;
+}
+.author-box2{
+	height: 100px;
+	border: 1px solid gainsboro;
+}
+.infomation{
+		background: rgba(255,255,255,0.9);
+		padding-bottom: 20px;
+		padding-top: 20px;
+		margin-top: 20px;
+}

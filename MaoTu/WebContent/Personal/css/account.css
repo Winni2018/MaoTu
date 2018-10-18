@@ -1,0 +1,145 @@
+.con {
+	width: 100%;
+	height: 50px;
+	background-color: #F9F9F9;
+}
+
+.con h3 {
+	color: black;
+	font-size: 18px;
+	margin-top: 0px;
+	margin-left: 0;
+}
+
+.con1 {
+	border-bottom: 2px solid gainsboro;
+}
+
+.xiugai {
+	margin-top: 20px;
+	background: rgba(255, 255, 255, 0.9);
+	margin-top: 30px;
+	border: 0;
+	box-shadow: 2px 3px 5px gainsboro;
+	border: 1px solid gainsboro;
+	padding-bottom: 20px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.change {
+	margin-top: 10px;
+}
+
+.change-box {
+	width: 70%;
+	height: 30px;
+	border: 1px solid gainsboro;
+}
+
+.chang-span {
+	margin-top: 8px;
+	/*border: 1px solid red;*/
+	padding-left: 10px;
+}
+
+.chang-span2 {
+	font-size: 15px;
+	padding-left: 10px;
+}
+
+.chang-span span {
+	font-size: 14px;
+}
+
+.chang-span,
+.chang-upload,
+.change-img {
+	/*border: 1px solid red;*/
+}
+
+.change-img {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.change-img img {
+	width: 60%;
+}
+
+.change-upload {
+	/*border: 1px solid gainsboro;*/
+	height: 30px;
+	margin-top: 20px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.change-sex {
+	padding-left: 0;
+}
+
+.change2 {
+	margin-top: 30px;
+}
+
+.change-box1 {
+	border: 1px solid gainsboro;
+	height: 30px;
+}
+
+.blueButton {
+	position: absolute;
+	display: block;
+	width: 120px;
+	height: 40px;
+	background: rgba(79, 167, 79, 0.8);
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	font: normal normal normal 14px/40px 'Microsoft YaHei';
+	/*padding-left: 10px;*/
+	border-radius: 4px;
+}
+
+.blueButton img {
+	margin-right: 5%;
+}
+
+.blueButton:hover {
+	cursor: pointer;
+	/*text-decoration: none;*/
+	color: black;
+}
+
+
+/*自定义上传,位置大小都和a完全一样,而且完全透明*/
+
+.myFileUpload {
+	position: absolute;
+	display: block;
+	width: 100px;
+	height: 40px;
+	opacity: 0;
+}
+
+
+/*显示上传文件夹名的Div*/
+
+.show {
+	position: absolute;
+	top: 40px;
+	width: 100%;
+	height: 30px;
+	font: normal normal normal 14px/30px 'Microsoft YaHei';
+}
+
+.btn {
+	background: #CD5C5C;
+	color: white;
+	border: 0;
+}
+
+.btn:hover {
+	color: black;
+}

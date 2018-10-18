@@ -1,0 +1,121 @@
+.per1{
+	width: 100%;
+	height: 50px;
+	background: rgba(255,255,255,0.9);
+	margin-top: 10px;
+	border: 0;
+		border: 1px solid gainsboro;
+}
+.per1 h3{
+	color: black;
+	font-size: 18px;
+text-align: center;
+	float: left;
+	padding: 5px;
+	margin-top: 10px;
+}
+.per1 img{
+margin-top: 12px;
+	float: left;
+}
+.right-top{
+	width: 100%;
+	/*height: 150px;*/
+	background: rgba(255,255,255,0.9);
+	margin-top: 30px;
+	border: 0;
+	box-shadow: 2px 3px 5px gainsboro;
+		border: 1px solid gainsboro;
+		/*display: none;*/
+	
+}
+.right-top h3{
+	font-size: 16px;
+	color: black;
+	margin-left: 10px;
+}
+.introd{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.right-main{
+	width: 100%;
+	background-color: rgba(255,255,255,0.9);
+		box-shadow: 2px 3px 5px gainsboro;
+	margin-top: 30px;
+	border: 0;
+		border: 1px solid gainsboro;
+		/*display: none;*/
+	
+}
+.intro1-row{
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+.right-main h3{
+	color: black;
+	font-size: 16px;
+	margin-left: 10px;
+}
+.introd1{
+	margin-top: 20px;
+	/*height: 50px;*/
+	
+	/*margin-left: 5%;*/
+	/*border: 1px solid gainsboro;*/
+	box-shadow: 3px 3px 3px gainsboro;
+		padding-top: 20px;
+}
+.introd1 span{
+	font-size: 16px;
+	/*padding: 12px;*/
+	/*padding: 10px;*/
+	margin-left: 18%;
+	/*text-align: center;*/
+	
+}
+.introd1 p{
+	color: black;
+	font-size: 16px;
+	font-weight: bold;
+	/*margin-left: 30%;*/
+	text-align: center;
+	
+}
+.tougao1{
+	padding-left: 0;
+	padding-right: 0;
+}
+.introd1:hover{
+	border: 1px solid #F78383;
+}
+
+.rongyu{
+	/*float: left;*/
+	margin-top: -5px;
+}
+.jifen{
+	margin-top: 5px;
+	margin-left: -10px;
+}
+.introd2{
+	padding-top: 10px;
+}
+.introd2 span{
+	font-size: 14px;
+	color:black;
+	padding: 5px;
+}
+#span2{
+	/*width: 30px;*/
+	/*height: 20px;*/
+	font-size: 13px;
+	color:#F7E578;
+	background: #455BB7;
+	border-radius: 5px;
+	margin-left: -4%;
+	margin-top: 40px;
+	/*border: 2px solid red;*/
+	padding: 0;
+	/*float: left;*/
+}

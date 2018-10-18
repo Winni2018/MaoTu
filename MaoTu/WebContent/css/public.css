@@ -1,0 +1,191 @@
+*{
+	margin: 0 auto;
+	padding: 0px;
+}
+a{
+	cursor: pointer;
+}
+.navbar-inverse{
+	background-color: rgba(0,0,0,0);
+	border-color: rgba(0,0,0,0);
+}
+
+.header{
+	width: 100%;
+	height: 60px;
+	border: none;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 999;
+}
+.log {
+	float: left;
+	padding-top: 10px;
+	margin-left: 30px;
+}		
+.log img{
+	height: 50px;
+}
+
+/*@media(min-width: 991px){
+#mynav1{
+	display: none;
+}*/
+#mynav ul li{
+	padding-left: 20px;
+	padding-top: 5px;
+	list-style-type: none;
+}
+#mynav ul li a{
+	color: white;
+	font-size: 16px;
+}
+#mynav ul li a:hover{
+	color: #FF3823;
+}
+#login{
+	margin-right:50px;
+}
+#a-login span{
+	padding-right: 5px;
+}
+#search{
+	width: 230px;
+	height: 37px;
+	padding: 0px;
+	margin-top: 8px;
+	background-color: white;
+	border-radius: 10px;
+}
+#search input{
+	border: none;
+	box-shadow: none;
+}
+#search img{
+	height:25px;
+}
+
+
+.footer{
+	bottom:0px;
+	left: 0px;
+	width: 100%;
+	border-top: solid 1px gainsboro;
+	text-align: center;
+	padding: 30px 0px;
+	background-color: white;
+}
+
+@media only screen and (max-width: 768px) {
+	#search{
+		display: none;
+	}
+	#nav-first{
+		display: none;
+	}
+	.navbar-inverse{
+	background-color: #000000;
+	border-color: #000000;
+}
+.header{
+	opacity: 0.9;
+}
+.navbar-collapse, .navbar-inverse .navbar-form{
+	background-color: rgba(0,0,0,0.9);
+}
+}
+
+
+/*登录*/
+
+.form-box {
+	top: 150px;
+	left: 0;
+	padding-top: 40px;
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+	position: fixed;
+	border: 1px solid #F1ECEC;
+	box-shadow: 1px 1px 5px #D5D5D5;
+	background: white;
+}
+
+.form-login-box,
+.form-register-box {
+	display: none;
+}
+
+.form-header {
+	width: 100%;
+	height: 40px;
+	background-color: #F9F9F9;
+	border-bottom: #F1ECEC;
+	/*box-shadow: 1px 1px 5px #ADADAD;*/
+	/*鑳屾櫙娓愬彉*/
+	/*background:linear-gradient(to bottom,#eeeeee, white);*/
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding-left: 30px;
+}
+
+.form-title {
+	line-height: 40px;
+	font-size: 20px;
+}
+
+.form-header .close {
+	display: block;
+	width: 40px;
+	height: 40px;
+	padding: 10px;
+}
+
+.form-login,
+.form-register {
+	margin-top: 10px;
+}
+
+.form-login p {
+	padding-left: 10px;
+}
+
+.tips {
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	padding: 0;
+	padding-left: 15px;
+	font-size: 12px;
+}
+
+.tipColor::-webkit-input-placeholder {
+	/* WebKit browsers */
+	color: red;
+}
+
+.no-margin{
+	margin-bottom: 0;
+}
+.overlay {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 99;
+    width: 100%;
+    display:none;
+    filter:alpha(opacity=60);
+    background-color: #000;
+    opacity: 0.5;
+    -moz-opacity: 0.5;
+}
+
+.form-register-box{
+	display: none;
+}
+
+.foot-p,.foot-p a{
+	font-size: 14px;
+	color: #262626;
+}
